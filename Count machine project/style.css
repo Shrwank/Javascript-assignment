@@ -1,0 +1,67 @@
+
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('boy-anime-artwork-u2.jpg'); /* Change 'background_image.jpg' to the path of your desired background image */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: white; /* Change color as desired */
+  }
+  
+  .counter-container {
+    text-align: center;
+    /* background-color: rgba(179, 20, 20, 0.8); Semi-transparent white background */
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  #count {
+    font-size: 48px;
+    text-align: center;
+    width: 100px;
+    border: 2px solid #333;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+  }
+  
+  .btn-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .btn {
+    font-size: 18px;
+    margin: 0 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #4c66af;
+    border: none;
+    color: white;
+    border-radius: 20px;
+    outline: none;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #45a049;
+  }
+  
+  .btn:active {
+    background-color: #0ad44e;
+  }
+  
